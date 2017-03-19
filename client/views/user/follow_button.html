@@ -1,0 +1,11 @@
+<template name="followButton">
+    {{#if canFollow}}
+        {{#with user}}
+            {{#if isFollowing}}
+                <a href="/user/{{_id}}/unfollow" class="btn btn-primary btn-large">Deixar de Seguir</a>
+            {{else}}
+                <a href="/user/{{_id}}/follow" class="btn btn-success btn-large">Seguir</a>
+            {{/if}}
+        {{/with}}
+    {{/if}}
+</template>
