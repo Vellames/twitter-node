@@ -1,8 +1,8 @@
 sudo: required
 language: node_js
 node_js:
-	- "4.2"
+  - "4.2"
 install:
-	- "curl	https://install.meteor.com | /bin/sh"
+  - "curl https://install.meteor.com | bin/sh"
 script:
-	- "meteor --test --once"
+  - "meteor --test --once"
