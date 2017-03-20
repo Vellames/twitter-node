@@ -26,3 +26,4 @@ accounts-facebook
 service-configuration
 iron:router
 practicalmeteor:mocha
+dispatch:mocha

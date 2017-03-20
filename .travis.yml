@@ -5,4 +5,4 @@ node_js:
 install:
   - curl https://install.meteor.com | /bin/sh
 script:
-  - meteor test --driver-package practicalmeteor:mocha
+  - meteor test --once --driver-package dispatch:mocha
