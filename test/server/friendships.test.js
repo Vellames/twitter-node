@@ -5,7 +5,7 @@ if (Meteor.isServer) {
     describe('Friendships', () => {
         describe('methods', () => {
             it('Follow an user', () => {
-                assert.equal(1,1);
+                assert.equal(1,2);
             });
         });
     });
